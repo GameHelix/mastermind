@@ -89,7 +89,7 @@ export default function Header({
           title={musicEnabled ? 'Music on' : 'Music off'}
           aria-pressed={musicEnabled}
           className={`p-2 rounded-lg transition-all text-base ${
-            musicEnabled ? 'text-cyan-400 bg-cyan-400/15' : 'text-gray-600 hover:text-gray-400'
+            musicEnabled ? 'text-cyan-400 bg-cyan-400/15' : 'text-gray-400 hover:text-gray-200'
           }`}
         >
           🎵
@@ -100,7 +100,7 @@ export default function Header({
           title={soundEnabled ? 'Sound on' : 'Sound off'}
           aria-pressed={soundEnabled}
           className={`p-2 rounded-lg transition-all text-base ${
-            soundEnabled ? 'text-cyan-400 bg-cyan-400/15' : 'text-gray-600 hover:text-gray-400'
+            soundEnabled ? 'text-cyan-400 bg-cyan-400/15' : 'text-gray-400 hover:text-gray-200'
           }`}
         >
           {soundEnabled ? '🔊' : '🔇'}

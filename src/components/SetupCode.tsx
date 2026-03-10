@@ -28,7 +28,7 @@ export default function SetupCode({
   const complete = playerCode.slice(0, cfg.codeLength).every((p) => p !== null);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-[#050010] text-white">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
